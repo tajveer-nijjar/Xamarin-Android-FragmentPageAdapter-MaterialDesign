@@ -4,7 +4,7 @@ using Android.Support.V4.App;
 
 namespace FragmentPageAdapter
 {
-    public class CustomAdapter: FragmentPagerAdapter
+    public class CustomAdapter: FragmentStatePagerAdapter
     {
         public CustomAdapter(FragmentManager fm) : base(fm)
         {
